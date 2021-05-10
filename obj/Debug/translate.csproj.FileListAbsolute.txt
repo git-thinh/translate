@@ -4,3 +4,4 @@ D:\tt\build\translate\translate.pdb
 D:\tt\core\translate\obj\Debug\translate.csproj.CopyComplete
 D:\tt\core\translate\obj\Debug\translate.exe
 D:\tt\core\translate\obj\Debug\translate.pdb
+D:\tt\core\translate\obj\Debug\translate.csprojAssemblyReference.cache

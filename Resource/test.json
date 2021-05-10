@@ -1,0 +1,76 @@
+﻿[
+  {
+    "sentences": [
+      {
+        "trans": "xin chào",
+        "orig": "hello",
+        "backend": 1
+      }
+    ],
+    "dict": [
+      {
+        "pos": "noun",
+        "terms": [ "câu chào", "chào", "tiếng chào" ],
+        "entry": [
+          {
+            "word": "câu chào",
+            "reverse_translation": [ "hello" ]
+          },
+          {
+            "word": "chào",
+            "reverse_translation": [ "hello" ]
+          },
+          {
+            "word": "tiếng chào",
+            "reverse_translation": [ "hello", "salaam" ]
+          }
+        ],
+        "base_form": "hello",
+        "pos_enum": 1
+      }
+    ],
+    "src": "en",
+    "spell": {}
+  },
+  {
+    "sentences": [
+      {
+        "trans": "Chấp nhận",
+        "orig": "accept",
+        "backend": 1
+      }
+    ],
+    "dict": [
+      {
+        "pos": "verb",
+        "terms": [ "bằng lòng", "chấp nhận", "nhận", "thu nhận", "ưng thuận" ],
+        "entry": [
+          {
+            "word": "bằng lòng",
+            "reverse_translation": [ "consent", "agree", "accept", "assent", "come across", "accede" ]
+          },
+          {
+            "word": "chấp nhận",
+            "reverse_translation": [ "accept", "admit", "be accepted", "OK", "comply", "okay" ]
+          },
+          {
+            "word": "nhận",
+            "reverse_translation": [ "receive", "get", "accept", "hear", "pass", "own" ]
+          },
+          {
+            "word": "thu nhận",
+            "reverse_translation": [ "accept" ]
+          },
+          {
+            "word": "ưng thuận",
+            "reverse_translation": [ "accept", "be accepted", "bind", "covenant" ]
+          }
+        ],
+        "base_form": "accept",
+        "pos_enum": 2
+      }
+    ],
+    "src": "en",
+    "spell": {}
+  }
+]

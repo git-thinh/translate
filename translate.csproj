@@ -49,17 +49,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="..\_Shared\RedisBasic\IRedisBase.cs">
+      <Link>_shared\redis\IRedisBase.cs</Link>
+    </Compile>
     <Compile Include="..\_shared\redisbasic\RedisBase.cs">
-      <Link>RedisBasic\RedisBase.cs</Link>
+      <Link>_shared\redis\RedisBase.cs</Link>
     </Compile>
     <Compile Include="..\_shared\redisbasic\RedisSetting.cs">
-      <Link>RedisBasic\RedisSetting.cs</Link>
+      <Link>_shared\redis\RedisSetting.cs</Link>
     </Compile>
     <Compile Include="..\_shared\redisbasic\REDIS_TYPE.cs">
-      <Link>RedisBasic\REDIS_TYPE.cs</Link>
+      <Link>_shared\redis\REDIS_TYPE.cs</Link>
     </Compile>
     <Compile Include="..\_shared\redisbasic\ResponseException.cs">
-      <Link>RedisBasic\ResponseException.cs</Link>
+      <Link>_shared\redis\ResponseException.cs</Link>
     </Compile>
     <Compile Include="..\_shared\_document\StaticDocument.cs">
       <Link>_shared\StaticDocument.cs</Link>
@@ -70,6 +73,7 @@
     <Compile Include="..\_Shared\__web_server.cs">
       <Link>_shared\__web_server.cs</Link>
     </Compile>
+    <Compile Include="GoogleTranslate01.cs" />
     <Compile Include="MyService.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -78,6 +82,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resource\test.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ReadMe.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
